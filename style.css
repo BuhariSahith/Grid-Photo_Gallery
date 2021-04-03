@@ -39,7 +39,7 @@ body {
 }
 .img_2 {
   grid-row: 2;
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 3;
 }
 .img_3 {
   grid-row: 1;
@@ -134,4 +134,18 @@ body {
     grid-row: 12;
     /* grid-column: 1 / span 6 ; */
   }
+}
+
+/* NOTE HERE THE ANIMATIONS  */
+.img_container {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.imgg {
+  object-fit: cover;
+  /* transition: 0.5s ease-in-out; */
+}
+.imgg:hover {
+  /* transform: scale(1.2); */
 }

@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   max-width: 1200px;
+  background-color: rgb(58, 57, 57);
 }
 
 img {
@@ -13,26 +14,17 @@ img {
   height: 100%;
 }
 
-/* NOTE HERE THE ANIMATIONS  */
 .img_container {
   overflow: hidden;
   border-radius: 12px;
 }
 
-.imgg {
-  object-fit: cover;
-  transition: 0.5s ease-in-out;
-}
-.imgg:hover {
-  transform: scale(1.2);
-}
-
 .grid_img {
   display: grid;
   height: 100vh;
-  grid-gap: 20px;
+  grid-gap: 15px;
   grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: 200px;
+  grid-auto-rows: 250px;
 }
 
 .img_1 {
@@ -88,7 +80,7 @@ img {
 
 @media (max-width: 1200px) {
   .grid_img {
-    grid-gap: 12px;
+    grid-gap: 10px;
   }
   .img_1 {
     grid-row: 1;
